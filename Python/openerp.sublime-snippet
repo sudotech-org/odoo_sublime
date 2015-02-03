@@ -16,7 +16,6 @@ ${3:Add a short module description here...}
     "data" : [],
     "installable": True,
 }
-
 ]]></content>
     <tabTrigger>__openerp__</tabTrigger>
     <scope>source.python</scope>

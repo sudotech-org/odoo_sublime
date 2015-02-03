@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+${1:field_name} = fields.Char(string="${2:Field label}", size=${3:64}),
+]]></content>
+    <tabTrigger>char</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
