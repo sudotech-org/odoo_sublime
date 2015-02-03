@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+
+        ${1}
+
+    </data>
+</openerp>]]></content>
+    <tabTrigger>__xml__</tabTrigger>
+    <scope>text.xml</scope>
+</snippet>

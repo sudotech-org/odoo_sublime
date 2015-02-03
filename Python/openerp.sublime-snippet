@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+{
+    "name": "${1:Module name}",
+    "version": "0.1",
+    "author" : "OpenERP Africa <info@openerpafrica.com>",
+    "website": "http://www.openerpafrica.com",
+    "category": "${2:Category}",
+    "description": """
+${1:Module name}
+${1/./=/g}
+${3:Add a short module description here...}
+""",
+    "summary": "${4:Keywords}",
+    "depends": [],
+    "data" : [],
+    "installable": True,
+}
+
+]]></content>
+    <tabTrigger>__openerp__</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
