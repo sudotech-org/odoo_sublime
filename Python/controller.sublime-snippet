@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+from openerp.addons.web import http
+from openerp.addons.web.http import request
+from openerp.addons.website.models.website import slug
+
+class ${1:ControllerName}(http.Controller):
+
+    @http.route(['${2:/web/path}'], auth="public", website=True)
+    def ${3:example}(self, **post):
+        return request.website.render('${4:module_name.template_name}')
+
+${1:ControllerName}()
+]]></content>
+    <tabTrigger>controller</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

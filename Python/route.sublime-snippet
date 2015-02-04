@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+@http.route(['${1:/web/path}'], auth="public", website=True)
+def ${2:example}(self, **post):
+    return request.website.render('${3:module_name.template_name}')
+]]></content>
+    <tabTrigger>route</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

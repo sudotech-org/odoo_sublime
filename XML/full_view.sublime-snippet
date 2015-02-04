@@ -1,0 +1,66 @@
+<snippet>
+    <content><![CDATA[
+<?xml version="1.0" encoding="UTF-8"?>
+<openerp>
+    <data>
+
+        <record model="ir.ui.view" id="view_${1:model_name}_tree">
+            <field name="name">${1/_/./g}.tree</field>
+            <field name="model">${1/_/./g}</field>
+            <field name="type">tree</field>
+            <field name="arch" type="xml">
+                <tree>
+                    
+                </tree>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="view_${1:model_name}_form">
+            <field name="name">${1/_/./g}.form</field>
+            <field name="model">${1/_/./g}</field>
+            <field name="type">form</field>
+            <field name="arch" type="xml">
+                <form>
+                    <header>
+
+                    </header>
+                    <sheet>
+                        
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record model="ir.actions.act_window" id="action_${1:model_name}">
+            <field name="name">${2:Menu label}</field>
+            <field name="res_model">${1/_/./g}</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="limit">80</field>
+            <field name="target">current</field>
+        </record>
+
+        <record model="ir.actions.act_window.view" id="action_view_${1:model_name}_tree">
+            <field name="act_window_id" ref="action_${1:model_name}" />
+            <field name="view_mode">tree</field>
+            <field name="view_id" ref="view_${1:model_name}_tree" />
+        </record>
+
+        <record model="ir.actions.act_window.view" id="action_view_${1:model_name}_form">
+            <field name="act_window_id" ref="action_${1:model_name}" />
+            <field name="view_mode">form</field>
+            <field name="view_id" ref="view_${1:model_name}_form" />
+        </record>
+
+        <menuitem
+            name="${2:Menu label}"
+            id="menu_${1:model_name}"
+            action="action_${1:model_name}"
+            parent="${3:parent_xml_id}"
+            sequence="0" />
+
+    </data>
+</openerp>]]></content>
+    <tabTrigger>full_view</tabTrigger>
+    <scope>text.xml</scope>
+</snippet>
