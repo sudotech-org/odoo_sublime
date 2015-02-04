@@ -33,31 +33,31 @@ XML commands:
 
 - full:
 
-Creates a default XML view that includes a menu item, action, form view and tree view.
+	Creates a default XML view that includes a menu item, action, form view and tree view.
 
 - xml:
 
-Creates the basic XML file that includes the XML decorator and &lt;openerp&gt; and &lt;data&gt; tags.
+	Creates the basic XML file that includes the XML decorator and &lt;openerp&gt; and &lt;data&gt; tags.
 
 - menu:
 
-TODO
+	TODO
 
 - action:
 
-TODO
+	TODO
 
 - form:
 
-TODO
+	TODO
 
 - tree:
 
-TODO
+	TODO
 
 - kanban:
 
-TODO
+	TODO
 
 
 Python commands:
@@ -65,16 +65,16 @@ Python commands:
 
 - openerp
 
-TODO
+	TODO
 
 - model
 
-TODO
+	TODO
 
 - controller
 
-TODO
+	TODO
 
 - route
 
-TODO
+	TODO
