@@ -11,7 +11,7 @@ Windows
 
 1) Download the repository as a ZIP file.
 
-2) Extract the ZIP file to your Sublime packages location which is usually located at: "C:\Users\Andre\AppData\Roaming\Sublime Text 3\Packages"
+2) Extract the ZIP file to your Sublime packages location which is usually located at: "C:\\Users\\<YourUsername>\\AppData\\Roaming\\Sublime Text 3\\Packages"
 
 Linux
 ~~~~~
