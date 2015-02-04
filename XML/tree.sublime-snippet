@@ -9,7 +9,8 @@
             ${2}
         </tree>
     </field>
-</record>]]></content>
-    <tabTrigger>tree_view</tabTrigger>
+</record>
+]]></content>
+    <tabTrigger>tree</tabTrigger>
     <scope>text.xml</scope>
 </snippet>

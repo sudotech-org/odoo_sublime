@@ -1,6 +1,7 @@
 <snippet>
     <content><![CDATA[
-<field name="${1:field}" />]]></content>
+<field name="${1:field}" />
+]]></content>
     <tabTrigger>field</tabTrigger>
     <scope>text.xml</scope>
 </snippet>

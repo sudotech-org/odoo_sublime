@@ -60,7 +60,8 @@
             sequence="0" />
 
     </data>
-</openerp>]]></content>
-    <tabTrigger>full_view</tabTrigger>
+</openerp>
+]]></content>
+    <tabTrigger>full</tabTrigger>
     <scope>text.xml</scope>
 </snippet>

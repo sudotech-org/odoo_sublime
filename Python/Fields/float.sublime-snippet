@@ -2,6 +2,6 @@
     <content><![CDATA[
 ${1:field_name} = fields.Float(string="${2:Field label}"),
 ]]></content>
-    <tabTrigger>boolean</tabTrigger>
+    <tabTrigger>float</tabTrigger>
     <scope>source.python</scope>
 </snippet>

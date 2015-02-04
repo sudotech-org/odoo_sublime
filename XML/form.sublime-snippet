@@ -14,7 +14,8 @@
             </sheet>
         </form>
     </field>
-</record>]]></content>
-    <tabTrigger>form_view</tabTrigger>
+</record>
+]]></content>
+    <tabTrigger>form</tabTrigger>
     <scope>text.xml</scope>
 </snippet>

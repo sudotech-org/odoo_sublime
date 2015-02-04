@@ -5,6 +5,7 @@ from openerp import models, fields, api, exceptions, _
 class ${1:model_name}(models.Model):
 
     _name = '${1/_/./g}'
+    _description = '${2:Model description}'
 
     name = fields.Char(string="Name", size=64),
 

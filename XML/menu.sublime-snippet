@@ -6,7 +6,8 @@
     parent="menu_${3:parent_id}"
     action="action_${4:model_name}"
     groups="${5}"
-    sequence="${6}" />]]></content>
+    sequence="${6}" />
+]]></content>
     <tabTrigger>menu</tabTrigger>
     <scope>text.xml</scope>
 </snippet>
