@@ -10,4 +10,5 @@
 </record>]]></content>
     <tabTrigger>action</tabTrigger>
     <scope>text.xml</scope>
+    <description>Action</description>
 </snippet>

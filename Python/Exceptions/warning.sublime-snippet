@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+raise openerp.exceptions.Warning("${1:Warning message here...}")
+]]></content>
+    <tabTrigger>raise</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

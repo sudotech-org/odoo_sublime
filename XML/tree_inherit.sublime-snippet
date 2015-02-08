@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+<record model="ir.ui.view" id="view_${1:model_name}_tree_inherit">
+    <field name="name">${1/_/./g}.tree.inherit</field>
+    <field name="model">${1/_/./g}</field>
+    <field name="type">tree</field>
+    <field name="inherit_id" ref="${2:module_name.tree_name}" />
+    <field name="arch" type="xml">
+        <xpath expr="${3}" position="{4}">
+            ${5}
+        </xpath>
+    </field>
+</record>
+]]></content>
+    <tabTrigger>form</tabTrigger>
+    <scope>text.xml</scope>
+</snippet>

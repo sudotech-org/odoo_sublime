@@ -4,4 +4,5 @@
 ]]></content>
     <tabTrigger>field</tabTrigger>
     <scope>text.xml</scope>
+    <description>Field</description>
 </snippet>

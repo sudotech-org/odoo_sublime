@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+.. image:: /${1:module_name}/static/description/${2:image.png}
+    :width: ${3:600}
+    :height: ${4:auto}
+]]></content>
+    <tabTrigger>image</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

@@ -1,7 +1,8 @@
   <snippet>
     <content><![CDATA[
-${1:field_name} = fields.Html(string="${2:Field label}"),
+${1:field_name} = fields.Html(string="${2:Field label}")
 ]]></content>
-    <tabTrigger>html</tabTrigger>
+    <tabTrigger>fields</tabTrigger>
     <scope>source.python</scope>
+    <description>Html</description>
 </snippet>
