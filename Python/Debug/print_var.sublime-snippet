@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+print "${1:var} = " + str(${1:var})
+]]></content>
+    <tabTrigger>print</tabTrigger>
+    <scope>source.python</scope>
+    <description>Print variable</description>
+</snippet>

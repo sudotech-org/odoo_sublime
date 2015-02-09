@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+print "*" * 1000
+]]></content>
+    <tabTrigger>print</tabTrigger>
+    <scope>source.python</scope>
+    <description>Print stars</description>
+</snippet>
