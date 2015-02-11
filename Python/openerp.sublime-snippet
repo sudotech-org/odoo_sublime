@@ -3,7 +3,7 @@
 {
     "name": "${1:Module name}",
     "version": "0.1",
-    "author" : "OpenERP Africa <info@openerpafrica.com>",
+    "author" : "OA Solutions",
     "website": "http://www.openerpafrica.com",
     "category": "${2:Category}",
     "description": """
