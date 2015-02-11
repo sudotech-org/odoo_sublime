@@ -6,4 +6,5 @@
 ]]></content>
     <tabTrigger>template</tabTrigger>
     <scope>text.xml</scope>
+    <description>Template</description>
 </snippet>

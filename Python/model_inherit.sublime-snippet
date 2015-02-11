@@ -4,14 +4,13 @@ from openerp import models, fields, api, exceptions, _
 
 class ${1:model_name}(models.Model):
 
-    _name = '${1/_/./g}'
-    _description = '${2:Model description}'
+    _inherit = '${1/_/./g}'
 
-    name = fields.Char(string="Name", size=64),
+    ${2}
 
 ${1:model_name}()
 ]]></content>
     <tabTrigger>model</tabTrigger>
     <scope>source.python</scope>
-    <description>Model</description>
+    <description>Model (inherit)</description>
 </snippet>

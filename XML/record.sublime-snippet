@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+<record model="${1:model.name}" id="${1/\./_/g}_${2:name}">
+    <field name=""></field>
+</record>
+]]></content>
+    <tabTrigger>record</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Record</description>
+</snippet>

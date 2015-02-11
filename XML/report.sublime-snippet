@@ -1,0 +1,30 @@
+<snippet>
+    <content><![CDATA[
+<template id="report_${1:model_name}" name="${2:Report name}">
+    <t t-foreach="doc_ids" t-as="o">
+        <t t-call="report.html_container">
+            <div class="header">
+
+            </div>
+            <div class="page">
+
+            </div>
+            <div class="footer">
+
+            </div>
+        </t>
+    </t>
+</template>
+
+<report
+    id="action_report_${1:model_name}"
+    model="${1/_/./g}"
+    report_type="qweb-pdf"
+    string="${2:Report name}"
+    name="${3:module_name}.report_${1:model_name}"
+    file="${3:module_name}.report_${1:model_name}" />
+]]></content>
+    <tabTrigger>report</tabTrigger>
+    <scope>text.xml</scope>
+    <description>QWeb Report</description>
+</snippet>

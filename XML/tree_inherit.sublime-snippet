@@ -12,6 +12,7 @@
     </field>
 </record>
 ]]></content>
-    <tabTrigger>form</tabTrigger>
+    <tabTrigger>tree</tabTrigger>
     <scope>text.xml</scope>
+    <description>Tree view (inherit)</description>
 </snippet>

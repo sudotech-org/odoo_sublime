@@ -13,4 +13,5 @@
 ]]></content>
     <tabTrigger>tree</tabTrigger>
     <scope>text.xml</scope>
+    <description>Tree view</description>
 </snippet>

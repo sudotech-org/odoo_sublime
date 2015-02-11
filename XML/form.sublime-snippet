@@ -18,4 +18,5 @@
 ]]></content>
     <tabTrigger>form</tabTrigger>
     <scope>text.xml</scope>
+    <description>Form view</description>
 </snippet>
