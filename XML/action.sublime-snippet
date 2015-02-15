@@ -7,7 +7,8 @@
     <field name="view_mode">${4:tree,form}</field>
     <field name="limit">${5:80}</field>
     <field name="target">${6:current}</field>
-</record>]]></content>
+</record>
+]]></content>
     <tabTrigger>action</tabTrigger>
     <scope>text.xml</scope>
     <description>Action</description>

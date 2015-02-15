@@ -4,7 +4,7 @@
     "name": "${1:Module name}",
     "version": "0.1",
     "author" : "OA Solutions",
-    "website": "http://www.openerpafrica.com",
+    "website": "http://www.oasolutions.co.za",
     "category": "${2:Category}",
     "description": """
 ${1:Module name}

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<button type="object" name="${1:function_name}" string="${2:Button label}" />
+]]></content>
+    <tabTrigger>button</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Button (object)</description>
+</snippet>
