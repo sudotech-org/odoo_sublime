@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+t-field-options="{&quot;widget&quot;: &quot;monetary&quot;, &quot;display_currency&quot;: &quot;res_company.currency_id&quot;}"
+]]></content>
+    <tabTrigger>t-field-options</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Format to currency</description>
+</snippet>

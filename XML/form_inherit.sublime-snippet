@@ -6,7 +6,7 @@
     <field name="type">form</field>
     <field name="inherit_id" ref="${2:module_name.form_name}" />
     <field name="arch" type="xml">
-        <xpath expr="${3}" position="{4}">
+        <xpath expr="${3://field[@name='name']}" position="${4:replace}">
             ${5}
         </xpath>
     </field>

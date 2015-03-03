@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+t-field-options="{&quot;format&quot;: &quot;dd/MM/yyyy&quot;}"
+]]></content>
+    <tabTrigger>t-field-options</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Format to date</description>
+</snippet>

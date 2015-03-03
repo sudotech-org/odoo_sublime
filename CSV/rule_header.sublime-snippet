@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+id,groups:id,model_id,perm_read,perm_write,perm_create,perm_unlink,domain_force
+]]></content>
+    <tabTrigger>rule</tabTrigger>
+    <description>Column header for rule file</description>
+</snippet>

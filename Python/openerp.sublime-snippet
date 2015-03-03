@@ -11,7 +11,7 @@ ${1:Module name}
 ${1/./=/g}
 ${3:Add a short module description here...}
 """,
-    "summary": "${4:Keywords}",
+    "summary": "OA, ${1:Module name}, ${4:Keywords}",
     "depends": [],
     "data" : [],
     "installable": True,
