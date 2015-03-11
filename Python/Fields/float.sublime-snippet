@@ -1,8 +1,8 @@
-<snippet>
+  <snippet>
     <content><![CDATA[
-fields.Boolean(string="${1:Field label}")
+fields.Float(string="${1:Field label}")
 ]]></content>
     <tabTrigger>fields.</tabTrigger>
     <scope>source.python</scope>
-    <description>Boolean</description>
+    <description>Float</description>
 </snippet>

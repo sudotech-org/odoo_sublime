@@ -4,5 +4,5 @@ ${1:field_name} = fields.One2many(string="${2:Field label}", comodel_name="${3:m
 ]]></content>
     <tabTrigger>field</tabTrigger>
     <scope>source.python</scope>
-    <description>One2Many</description>
+    <description>One2many</description>
 </snippet>
