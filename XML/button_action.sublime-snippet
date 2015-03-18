@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<button type="action" name="%(${1:xml_id})d" string="${2:Button label}" />
+]]></content>
+    <tabTrigger>button</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Button (action)</description>
+</snippet>

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<function model="${1:model.name}" name="${2:function_name}" />
+]]></content>
+    <tabTrigger>function</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Function</description>
+</snippet>
