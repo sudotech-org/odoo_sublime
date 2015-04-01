@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+<record model="ir.ui.view" id="view_${1:model_name}_graph">
+    <field name="name">${1/_/./g}.graph</field>
+    <field name="model">${1/_/./g}</field>
+    <field name="type">calendar</field>
+    <field name="arch" type="xml">
+        <graph type="${2:pivot|bar|pie|line}">
+            <field type="col" name="${3:field}" />
+            <field type="row" name="${4:field}" />
+        </graph>
+    </field>
+</record>
+]]></content>
+    <tabTrigger>graph</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Graph view</description>
+</snippet>

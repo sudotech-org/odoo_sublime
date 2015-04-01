@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+return {
+    'type': 'ir.actions.act_window',
+    'name': '${1:Name}',
+    'view_mode': 'form',
+    'view_type': 'form',
+    'res_id': ${2:record_id},
+    'res_model': ${3:model_name},
+    'view_id': ${4:view_id},
+    'target': '${5:current|new}',
+}
+]]></content>
+    <tabTrigger>return action</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
