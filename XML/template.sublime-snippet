@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 <template id="${1:template_name}" name="${2:Template name}">
-    ${3}
+    
 </template>
 ]]></content>
     <tabTrigger>template</tabTrigger>

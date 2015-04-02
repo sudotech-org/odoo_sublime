@@ -2,7 +2,7 @@
     <content><![CDATA[
 <template id="${1:template_name}" name="${2:Template name}" inherit_id="${3:model_name}.${4:template_name}">
     <xpath expr="" position="">
-        ${5}
+        
     </xpath>
 </template>
 ]]></content>

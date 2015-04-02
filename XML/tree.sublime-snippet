@@ -7,7 +7,7 @@
     <field name="priority">0</field>
     <field name="arch" type="xml">
         <tree>
-            ${2}
+            
         </tree>
     </field>
 </record>
