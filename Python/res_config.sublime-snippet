@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+from openerp import models, fields, api, exceptions, _
+
+class ${1:res_config_name}(models.Model):
+
+    _name = '${1/_/./g}'
+    _inherit = 'res.config.settings'
+
+    
+
+${1:res_config_name}()
+]]></content>
+    <tabTrigger>res_config</tabTrigger>
+    <scope>source.python</scope>
+</snippet>

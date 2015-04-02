@@ -1,0 +1,36 @@
+<snippet>
+    <content><![CDATA[
+<record model="ir.ui.view" id="view_${1:model_name}_form">
+    <field name="name">${1/_/./g}.form</field>
+    <field name="model">${1/_/./g}</field>
+    <field name="type">form</field>
+    <field name="arch" type="xml">
+        <form>
+            <header>
+                <button string="Apply" type="object" name="execute" class="oe_highlight"/>
+                or
+                <button string="Cancel" type="object" name="cancel" class="oe_link"/>
+            </header>
+            
+        </form>
+    </field>
+</record>
+
+<record model="ir.actions.act_window" id="action_${1:model_name}">
+    <field name="name">${2:Menu name}</field>
+    <field name="res_model">${1/_/./g}</field>
+    <field name="view_type">form</field>
+    <field name="view_mode">form</field>
+    <field name="target">inline</field>
+</record>
+
+<menuitem
+    id="menu_${1:model_name}"
+    name="${2:Menu name}"
+    parent="base.menu_config"
+    action="action_${1:model_name}" />
+]]></content>
+    <tabTrigger>res_config</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Configuration form view</description>
+</snippet>
