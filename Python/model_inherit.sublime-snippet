@@ -2,11 +2,12 @@
     <content><![CDATA[
 from openerp import models, fields, api, exceptions, _
 
+import logging
+_logger = logging.getLogger(__name__)
+
 class ${1:model_name}(models.Model):
 
     _inherit = '${1/_/./g}'
-
-    ${2}
 
 ${1:model_name}()
 ]]></content>
