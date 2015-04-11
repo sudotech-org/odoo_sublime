@@ -2,6 +2,7 @@
     <content><![CDATA[
 id,name,group_id:id,model_id,perm_read,perm_write,perm_create,perm_unlink
 ]]></content>
+    <source>text.csv</source>
     <tabTrigger>access</tabTrigger>
     <description>Column header for access file</description>
 </snippet>
