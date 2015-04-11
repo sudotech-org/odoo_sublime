@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+<record model="ir.actions.act_window" id="action_${1:model_name}">
+    <field name="name">${2:Wizard label}</field>
+    <field name="res_model">${1/_/./g}</field>
+    <field name="view_type">form</field>
+    <field name="view_mode">form</field>
+    <field name="target">new</field>
+    <field name="view_id" ref="${3:model_name.view_name}" />
+</record>
+]]></content>
+    <tabTrigger>action</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Action that launches wizard</description>
+</snippet>

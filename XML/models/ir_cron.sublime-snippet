@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+<record model="ir.cron" id="ir_cron_${1:cron_name}">
+      <field name="name">${2:Cron Name}</field>
+      <field name="model">${3:model.name}</field>
+      <field name="function">${4:method_name}</field>
+      <field name="args">${5:()}</field>
+      <field name="interval_number">${6:1|5|10|30}</field>
+      <field name="interval_type">${7:minutes|hours|days|weeks|months}</field>
+      <field name="user_id" ref="base.user_root" />
+      <field name="active">1</field>
+      <field name="priority">1</field>
+      <field name="nextcall">2014-01-01 00:00:00</field>
+      <field name="numbercall">-1</field>
+      <field name="doall" eval="True" />
+</record>
+]]></content>
+    <tabTrigger>ir_cron</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Automated action</description>
+</snippet>

@@ -5,6 +5,6 @@
     <field name="name">${3:Group name}</field>
 </record>
 ]]></content>
-    <tabTrigger>group</tabTrigger>
+    <tabTrigger>res_groups</tabTrigger>
     <scope>text.xml</scope>
 </snippet>
