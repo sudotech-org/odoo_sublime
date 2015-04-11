@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-fields.Char(string="${1:Field label}", size=${2:64})
+${1:field_name} = fields.Char(string="${2:Field label}")
 ]]></content>
-    <tabTrigger>fields.</tabTrigger>
+    <tabTrigger>field</tabTrigger>
     <scope>source.python</scope>
     <description>Char</description>
 </snippet>

@@ -1,8 +1,8 @@
   <snippet>
     <content><![CDATA[
-fields.Float(string="${1:Field label}")
+${1:field_name} = fields.Float(string="${2:Field label}")
 ]]></content>
-    <tabTrigger>fields.</tabTrigger>
+    <tabTrigger>field</tabTrigger>
     <scope>source.python</scope>
     <description>Float</description>
 </snippet>

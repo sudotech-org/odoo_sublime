@@ -1,8 +1,8 @@
   <snippet>
     <content><![CDATA[
-fields.Many2one(string="${1:Field label}", comodel_name="${2:model.name}")
+${1:field_name} = fields.Many2one(string="${2:Field label}", comodel_name="${3:model.name}")
 ]]></content>
-    <tabTrigger>fields.</tabTrigger>
+    <tabTrigger>field</tabTrigger>
     <scope>source.python</scope>
     <description>Many2one</description>
 </snippet>

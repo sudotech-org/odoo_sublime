@@ -1,8 +1,8 @@
   <snippet>
     <content><![CDATA[
-fields.One2many(string="${1:Field label}", comodel_name="${2:model.name}", inverse_name="${3:column_name}")
+${1:field_name} = fields.One2many(string="${2:Field label}", comodel_name="${3:model.name}", inverse_name="${4:column_name}")
 ]]></content>
-    <tabTrigger>fields.</tabTrigger>
+    <tabTrigger>field</tabTrigger>
     <scope>source.python</scope>
     <description>One2many</description>
 </snippet>
