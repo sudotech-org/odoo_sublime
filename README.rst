@@ -33,30 +33,30 @@ CSV commands:
 
 - access:
 
-	Either creates the header columns for an ir.model.access.csv file or creates a new row
+    Either creates the header columns for an ir.model.access.csv file or creates a new row
 
 - rule:
 
-	Either creates the header columns for an ir.rule.csv file or create a new row
+    Either creates the header columns for an ir.rule.csv file or create a new row
 
 Python commands:
 ~~~~~~~~~~~~~~~~
 
 - openerp:
 
-	Creates a dictionary for the __openerp__.py manifesto file 
+    Creates a dictionary for the __openerp__.py manifesto file 
 
 - model:
 
-	Creates a new model or a model that inherits from another model
+    Creates a new model or a model that inherits from another model
 
 - res_config:
 
-	Creates a typical res.config model
+    Creates a typical res.config model
 
 - controller:
 
-	Creates a controller
+    Creates a controller
 
 - route:
 
@@ -67,23 +67,23 @@ XML commands:
 
 - xml
 
-	Creates the basic XML file that includes the XML decorator and &lt;openerp&gt; and &lt;data&gt; tags.
+    Creates the basic XML file that includes the XML decorator and <openerp> and <data> tags.
 
 - menu:
 
-	Creates a new menu item
+    Creates a new menu item
 
 - action:
 
-	Creates a typical action
+    Creates a typical action
 
 - search:
 
-	Creates a typical search view
+    Creates a typical search view
 
 - form:
 
-	Creates a typical form view
+    Creates a typical form view
 
 - tree:
 
@@ -91,28 +91,28 @@ XML commands:
 
 - kanban:
 
-	TODO
+    TODO
 
 - calendar:
 
-	Creates a typical calendar view
+    Creates a typical calendar view
 
 - graph:
 
-	Creates a typical graph view
+    Creates a typical graph view
 
 - gantt:
 
-	Creates a typical gantt view
+    Creates a typical gantt view
 
 - report:
 
-	Creates a typical report template
+    Creates a typical report template
 
 - template:
 
-	Creates a typical website template
+    Creates a typical website template
 
 - res_config:
 
-	Creates a typical res_config form view
+    Creates a typical res_config form view
