@@ -1,8 +1,0 @@
-  <snippet>
-    <content><![CDATA[
-${1:field_name} = fields.Text(string="${2:Field label}")
-]]></content>
-    <tabTrigger>field</tabTrigger>
-    <scope>source.python</scope>
-    <description>Text</description>
-</snippet>

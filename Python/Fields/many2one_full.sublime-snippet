@@ -1,8 +1,0 @@
-  <snippet>
-    <content><![CDATA[
-${1:field_name} = fields.Many2one(string="${2:Field label}", comodel_name="${3:model.name}")
-]]></content>
-    <tabTrigger>field</tabTrigger>
-    <scope>source.python</scope>
-    <description>Many2one</description>
-</snippet>
