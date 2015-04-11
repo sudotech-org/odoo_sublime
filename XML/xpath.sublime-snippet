@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+<xpath expr="${1}" position="${2:before|after|inside|replace|attributes}">
+
+</xpath>
+]]></content>
+    <tabTrigger>xpath</tabTrigger>
+    <scope>text.xml</scope>
+    <description>XPath expression</description>
+</snippet>
