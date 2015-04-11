@@ -28,53 +28,91 @@ How to use
 
 All the code snippets in sublime can be triggered by typing a command and then pressing TAB. Here is a list of available commands and what these commands do:
 
+CSV commands:
+~~~~~~~~~~~~~
+
+- access:
+
+	Either creates the header columns for an ir.model.access.csv file or creates a new row
+
+- rule:
+
+	Either creates the header columns for an ir.rule.csv file or create a new row
+
+Python commands:
+~~~~~~~~~~~~~~~~
+
+- openerp:
+
+	Creates a dictionary for the __openerp__.py manifesto file 
+
+- model:
+
+	Creates a new model or a model that inherits from another model
+
+- res_config:
+
+	Creates a typical res.config model
+
+- controller:
+
+	Creates a controller
+
+- route:
+
+    Creates a new controller method
+
 XML commands:
 ~~~~~~~~~~~~~
 
-- full:
-
-	Creates a default XML view that includes a menu item, action, form view and tree view.
-
-- xml:
+- xml
 
 	Creates the basic XML file that includes the XML decorator and &lt;openerp&gt; and &lt;data&gt; tags.
 
 - menu:
 
-	TODO
+	Creates a new menu item
 
 - action:
 
-	TODO
+	Creates a typical action
+
+- search:
+
+	Creates a typical search view
 
 - form:
 
-	TODO
+	Creates a typical form view
 
 - tree:
 
-	TODO
+    Creates a typical tree view
 
 - kanban:
 
 	TODO
 
+- calendar:
 
-Python commands:
-~~~~~~~~~~~~~~~~
+	Creates a typical calendar view
 
-- openerp
+- graph:
 
-	TODO
+	Creates a typical graph view
 
-- model
+- gantt:
 
-	TODO
+	Creates a typical gantt view
 
-- controller
+- report:
 
-	TODO
+	Creates a typical report template
 
-- route
+- template:
 
-	TODO
+	Creates a typical website template
+
+- res_config:
+
+	Creates a typical res_config form view
