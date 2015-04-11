@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+_logger.warning("${1:Message}")
+]]></content>
+    <tabTrigger>log</tabTrigger>
+    <scope>source.python</scope>
+    <description>Log (Warning)</description>
+</snippet>
