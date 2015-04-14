@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+<button class="oe_stat_button" type="object" name="${1:xml_id}" icon="fa-check">
+    <div>${2:Button label}</div>
+</button>
+]]></content>
+    <tabTrigger>button</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Stat Button (object)</description>
+</snippet>
