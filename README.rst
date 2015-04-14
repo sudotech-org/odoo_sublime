@@ -1,5 +1,5 @@
-Odoo development in Sublime
-===========================
+Odoo Sublime Snippets
+=====================
 
 This repository includes code snippets for Sublime which will aid in faster development of Odoo modules. This repository was created by OA Solutions (http://oasolutions.co.za) and is open-source and free to download. This is our contribution to the Odoo community and we are very proud of it!
 
