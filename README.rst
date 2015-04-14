@@ -116,3 +116,15 @@ XML commands:
 - res_config:
 
     Creates a typical res_config form view
+
+- ir_cron:
+
+    Creates XML for a ir.cron model
+
+- ir_sequence:
+
+    Creates XML for a ir.sequence model
+
+- res_groups:
+
+    Create XML for a res.groups model
