@@ -13,7 +13,7 @@
     <field name="implementation">no_gap</field>
 </record>
 ]]></content>
-    <tabTrigger>sequence</tabTrigger>
+    <tabTrigger>ir_sequence</tabTrigger>
     <scope>text.xml</scope>
     <description>Sequence</description>
 </snippet>
