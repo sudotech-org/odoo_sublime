@@ -16,7 +16,16 @@ Windows
 Linux
 ~~~~~
 
-TODO
+1) Change to ``Sublime`` configuration directory. 
+
+```bash
+$ cd  $HOME/.config/sublime-text-3/Packages
+```
+2) Pull the repository from ``Github``
+
+```bash
+$ git clone https://github.com/openERP-Africa/odoo_sublime.git
+```
 
 Mac
 ~~~
