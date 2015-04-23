@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<button class="oe_link" special="cancel" string="${1:Button label}" />
+]]></content>
+    <tabTrigger>button</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Button (cancel)</description>
+</snippet>
