@@ -57,6 +57,10 @@ Python commands:
 
     Creates a new model or a model that inherits from another model
 
+- report:
+
+    Creates a particular report layout
+
 - res_config:
 
     Creates a typical res.config model

@@ -1,18 +1,19 @@
 <snippet>
     <content><![CDATA[
 from openerp import models, fields, api, exceptions, _
+from functools import partial
 
 import logging
 _logger = logging.getLogger(__name__)
 
-class report_${2:reportname}(models.AbstractModel):
+class ${2:report_name}(models.AbstractModel):
 
-    _name = 'report.${1:module}.${2:reportname}'
+    _name = 'report.${1:module}.${2:report_name}'
     
     def render_html(self, cr, uid, ids, data=None, context=None):
         report_obj = self.pool['report']
         report = report_obj._get_report_from_name(
-            cr, uid, '${1:module}.${2:reportname}'
+            cr, uid, '${1:module}.${2:report_name}'
         )
 
         docargs = {
@@ -21,14 +22,24 @@ class report_${2:reportname}(models.AbstractModel):
             'docs': self.pool[report.model].browse(
                 cr, uid, ids, context=context
             ),
+            # ------------------------------------------
+            # Below is an example of a particular method
+            # ------------------------------------------
+            'example_method': partial(self._example_method, cr, uid, context=context),
         }
 
         return report_obj.render(
-            cr, uid, ids, '${1:module}.${2:reportname}',
+            cr, uid, ids, '${1:module}.${2:report_name}',
             docargs, context=context
         )
 
-report_${2:reportname}()
+    # -----------------------------------
+    # The example method is declared here
+    # -----------------------------------
+    def _example_method(self, cr, uid, parameter_1, parameter_2, context=context):
+        # From within the report view you can call this method by typing <span t-esc="example_method(parameter_1, parameter_2)" />
+
+${2:report_name}()
 ]]></content>
     <tabTrigger>report</tabTrigger>
     <scope>source.python</scope>
