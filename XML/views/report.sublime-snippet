@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 <template id="report_${1:model_name}" name="${2:Report name}">
-    <t t-foreach="doc_ids" t-as="o">
+    <t t-foreach="docs" t-as="o">
         <t t-call="report.html_container">
             <div class="header">
 
