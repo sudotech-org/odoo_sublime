@@ -6,7 +6,7 @@
     <field name="view_type">form</field>
     <field name="view_mode">form</field>
     <field name="target">new</field>
-    <field name="view_id" ref="${3:model_name.view_name}" />
+    <field name="view_id" ref="view_${1:model_name}_form" />
 </record>
 ]]></content>
     <tabTrigger>action</tabTrigger>
