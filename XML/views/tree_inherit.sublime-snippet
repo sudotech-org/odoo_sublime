@@ -6,8 +6,8 @@
     <field name="type">tree</field>
     <field name="inherit_id" ref="${2:module_name.tree_name}" />
     <field name="arch" type="xml">
-        <xpath expr="${3}" position="{4}">
-            
+        <xpath expr="${3://field[@name='name']}" position="${4:replace}">
+            ${5}
         </xpath>
     </field>
 </record>
