@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+return {
+    'type' : 'ir.actions.act_url',
+    'url' : ${1:/url/to/redirect},
+    'target': '${2:current|new}',
+}
+]]></content>
+    <tabTrigger>return redirect</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
