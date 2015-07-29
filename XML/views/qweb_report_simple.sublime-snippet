@@ -26,5 +26,5 @@
 ]]></content>
     <tabTrigger>report</tabTrigger>
     <scope>text.xml</scope>
-    <description>QWeb Report</description>
+    <description>QWeb Report (Simple)</description>
 </snippet>
