@@ -22,7 +22,7 @@ Linux
 
 2) Pull the repository from ``Github``
 
-    $ git clone https://github.com/openERP-Africa/odoo_sublime.git
+    $ git clone https://github.com/oa-solutions/odoo_sublime.git
 
 
 Mac
@@ -33,109 +33,4 @@ TODO
 How to use
 ----------
 
-All the code snippets in sublime can be triggered by typing a command and then pressing TAB. Here is a list of available commands and what these commands do:
-
-CSV commands:
-~~~~~~~~~~~~~
-
-- access:
-
-    Either creates the header columns for an ir.model.access.csv file or creates a new row
-
-- rule:
-
-    Either creates the header columns for an ir.rule.csv file or create a new row
-
-Python commands:
-~~~~~~~~~~~~~~~~
-
-- openerp:
-
-    Creates a dictionary for the __openerp__.py manifesto file 
-
-- model:
-
-    Creates a new model or a model that inherits from another model
-
-- report:
-
-    Creates a particular report layout
-
-- res_config:
-
-    Creates a typical res.config model
-
-- controller:
-
-    Creates a controller
-
-- route:
-
-    Creates a new controller method
-
-XML commands:
-~~~~~~~~~~~~~
-
-- xml
-
-    Creates the basic XML file that includes the XML decorator and <openerp> and <data> tags.
-
-- menu:
-
-    Creates a new menu item
-
-- action:
-
-    Creates a typical action
-
-- search:
-
-    Creates a typical search view
-
-- form:
-
-    Creates a typical form view
-
-- tree:
-
-    Creates a typical tree view
-
-- kanban:
-
-    TODO
-
-- calendar:
-
-    Creates a typical calendar view
-
-- graph:
-
-    Creates a typical graph view
-
-- gantt:
-
-    Creates a typical gantt view
-
-- report:
-
-    Creates a typical report template
-
-- template:
-
-    Creates a typical website template
-
-- res_config:
-
-    Creates a typical res_config form view
-
-- ir_cron:
-
-    Creates XML for a ir.cron model
-
-- ir_sequence:
-
-    Creates XML for a ir.sequence model
-
-- res_groups:
-
-    Create XML for a res.groups model
+All the code snippets in Sublime can be triggered by typing a command and then pressing TAB. To view a full list of all the available snippets, you can go explore the files in the repository.
