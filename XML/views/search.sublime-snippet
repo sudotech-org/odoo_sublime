@@ -6,10 +6,14 @@
     <field name="type">search</field>
     <field name="priority">0</field>
     <field name="arch" type="xml">
-        <search string="Accounts">
-            <filter string="" domain="" />
+        <search>
+            <!-- Example of searching for a field -->
+            <field name="name" filter_domain="[('name', 'ilike', self)]" string="Name" />
+            <!-- Example of a filter -->
+            <filter string="Active" domain="[('state', '=', 'active')]" />
             <group expand="0" string="Group By">
-                <filter string="" domain="" context="{'group_by': 'parent_id'}"/>
+                <!-- Example of a group by -->
+                <filter string="Customer" domain="" context="{'group_by': 'partner_id'}"/>
             </group>
         </search>
     </field>
