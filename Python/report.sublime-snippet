@@ -12,26 +12,19 @@ class ${2:report_name}(models.AbstractModel):
     
     def render_html(self, cr, uid, ids, data=None, context=None):
         report_obj = self.pool['report']
-        report = report_obj._get_report_from_name(
-            cr, uid, '${1:module}.${2:report_name}'
-        )
+        report = report_obj._get_report_from_name(cr, uid, '${1:module}.${2:report_name}')
 
         docargs = {
             'doc_ids': ids,
             'doc_model': report.model,
-            'docs': self.pool[report.model].browse(
-                cr, uid, ids, context=context
-            ),
+            'docs': self.pool[report.model].browse(cr, uid, ids, context=context),
             # ------------------------------------------
             # Below is an example of a particular method
             # ------------------------------------------
             'example_method': partial(self._example_method, cr, uid, context=context),
         }
 
-        return report_obj.render(
-            cr, uid, ids, '${1:module}.${2:report_name}',
-            docargs, context=context
-        )
+        return report_obj.render(cr, uid, ids, '${1:module}.${2:report_name}', docargs, context=context)
 
     # -----------------------------------
     # The example method is declared here

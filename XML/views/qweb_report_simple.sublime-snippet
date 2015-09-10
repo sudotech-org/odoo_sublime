@@ -15,16 +15,8 @@
         </t>
     </t>
 </template>
-
-<report
-    id="action_report_${1:model_name}"
-    model="${1/_/./g}"
-    report_type="qweb-pdf"
-    string="${2:Report name}"
-    name="${3:module_name}.report_${1:model_name}"
-    file="${3:module_name}.report_${1:model_name}" />
 ]]></content>
     <tabTrigger>report</tabTrigger>
     <scope>text.xml</scope>
-    <description>QWeb Report (Simple)</description>
+    <description>QWeb Report Template (Simple)</description>
 </snippet>

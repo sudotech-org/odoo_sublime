@@ -14,5 +14,5 @@
 ]]></content>
     <tabTrigger>report</tabTrigger>
     <scope>text.xml</scope>
-    <description>Report (With Paper Format)</description>
+    <description>Report Action (With Paper Format)</description>
 </snippet>
