@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-<button class="oe_link" special="cancel" string="${1:Button label}" />
+<button class="oe_link" special="cancel" string="${1:Cancel}" />
 ]]></content>
     <tabTrigger>button</tabTrigger>
     <scope>text.xml</scope>
