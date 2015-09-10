@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+<footer>
+	<button class="oe_highlight" type="object" name="${1:function_name}" string="${2:Button label}" />
+	or
+	<button class="oe_link" special="cancel" string="Cancel" />
+</footer>
+]]></content>
+    <tabTrigger>footer</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Wizard Footer</description>
+</snippet>
