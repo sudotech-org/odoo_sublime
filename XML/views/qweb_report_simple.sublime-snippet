@@ -1,17 +1,13 @@
 <snippet>
     <content><![CDATA[
 <template id="report_${1:model_name}" name="${2:Report name}">
-    <t t-foreach="docs" t-as="o">
-        <t t-call="report.html_container">
-            <div class="header">
+    <t t-call="report.html_container">
+        <t t-foreach="docs" t-as="o">
+            <t t-call="report.external_layout">
+                <div class="page">
 
-            </div>
-            <div class="page">
-
-            </div>
-            <div class="footer">
-
-            </div>
+                </div>
+            </t>
         </t>
     </t>
 </template>
