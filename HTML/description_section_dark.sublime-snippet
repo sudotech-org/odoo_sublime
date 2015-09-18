@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[
+<section class="oe_container oe_dark">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+            <h2 class="oe_slogan">${1:Main Heading}</h2>
+            <h3 class="oe_slogan">${2:Secondary Heading}</h3>
+        </div>
+        <div class="oe_span6">
+            <div class="oe_row_img oe_centered">
+                <img src="${3:module_name}_sc_${4:00}.png">
+            </div>
+        </div>
+        <div class="oe_span6">
+            <p class="oe_mt32">
+                ${5:Write somehting explanitory}
+            </p>
+        </div>
+    </div>
+</section>
+]]></content>
+    <source>text.html</source>
+    <tabTrigger>description</tabTrigger>
+    <description>Description Section (Dark)</description>
+</snippet>
