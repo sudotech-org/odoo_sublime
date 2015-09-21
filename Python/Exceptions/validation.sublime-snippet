@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-raise exceptions.Warning("${1:Warning message here...}")
+raise exceptions.ValidationError("${1:Validation message here...}")
 ]]></content>
     <tabTrigger>raise</tabTrigger>
     <scope>source.python</scope>
-    <description>Raise Warning</description>
+    <description>Raise ValidationError</description>
 </snippet>
