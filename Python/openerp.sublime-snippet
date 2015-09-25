@@ -9,14 +9,15 @@
     "description": """
 ${1:Module name}
 ${1/./=/g}
-${3:Add a short module description here...}
 """,
-    "summary": "OA, ${4:Keywords}",
+    "summary": "${3:Keywords}",
     "depends": [],
     "data" : [],
+    "demo" : [],
     "installable": True,
 }
 ]]></content>
     <tabTrigger>openerp</tabTrigger>
     <scope>source.python</scope>
+    <description>Manifest File</description>
 </snippet>
