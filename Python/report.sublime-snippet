@@ -29,7 +29,7 @@ class ${2:report_name}(models.AbstractModel):
     # -----------------------------------
     # The example method is declared here
     # -----------------------------------
-    def _example_method(self, cr, uid, parameter_1, parameter_2, context=context):
+    def _example_method(self, cr, uid, parameter_1, parameter_2, context=None):
         # From within the report view you can call this method by typing <span t-esc="example_method(parameter_1, parameter_2)" />
 
 ${2:report_name}()
