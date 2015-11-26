@@ -11,4 +11,5 @@
 ]]></content>
     <tabTrigger>xml</tabTrigger>
     <scope>text.xml</scope>
+    <description>XML Template for webclient</description>
 </snippet>
