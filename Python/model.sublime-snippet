@@ -9,8 +9,6 @@ class ${1:model_name}(models.Model):
 
     _name = '${1/_/./g}'
     _description = '${2:Model description}'
-
-${1:model_name}()
 ]]></content>
     <tabTrigger>model</tabTrigger>
     <scope>source.python</scope>
