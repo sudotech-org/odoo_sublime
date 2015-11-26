@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+<?xml version="1.0" encoding="UTF-8"?>
+<templates xml:space="preserve">
+
+
+
+</templates>
+]]></content>
+    <tabTrigger>xml</tabTrigger>
+    <scope>text.xml</scope>
+    <description>XML Template for qweb</description>
+</snippet>
