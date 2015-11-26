@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+<record model="workflow" id="workflow_${1:name}" >
+    <field name="name">workflow.${1/_/./g}</field>
+    <field name="osv">${2:model.name}</field>
+    <field name="on_create">True</field>
+</record>
+]]></content>
+    <tabTrigger>workflow</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Workflow</description>
+</snippet>
