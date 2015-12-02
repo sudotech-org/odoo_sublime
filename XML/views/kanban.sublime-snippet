@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[
+<record model="ir.ui.view" id="view_${1:model_name}_kanban">
+    <field name="name">${1/_/./g}.kanban</field>
+    <field name="model">${1/_/./g}</field>
+    <field name="type">kanban</field>
+    <field name="priority">0</field>
+    <field name="arch" type="xml">
+        <kanban>
+            <field name="name"/>  
+            <templates>
+                <t t-name="kanban-box">
+                    <div>
+                        <field name="name" />
+                    </div>
+                </t>
+            </templates>
+        </kanban>
+    </field>
+</record>
+]]></content>
+    <tabTrigger>kanban</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Kanban view</description>
+</snippet>
