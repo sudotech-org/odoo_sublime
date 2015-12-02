@@ -7,7 +7,7 @@
     <field name="value" eval="'ir.actions.act_window,' + str(ref('${3:action_to_execute}'))"/>
 </record>
 ]]></content>
-    <tabTrigger>more_button</tabTrigger>
+    <tabTrigger>action</tabTrigger>
     <scope>text.xml</scope>
     <description>Add action to "More" menu</description>
 </snippet>
