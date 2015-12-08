@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+<delete model="${1:model.name}" search="[('id', '=', ref('${2:xml_id}'))]" />
+]]></content>
+    <tabTrigger>delete</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Delete</description>
+</snippet>
