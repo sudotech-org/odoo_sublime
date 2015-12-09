@@ -1,0 +1,72 @@
+<snippet>
+    <content><![CDATA[
+<record model="ir.ui.view" id="view_${1:model_name}_kanban">
+    <field name="name">${1/_/./g}.kanban</field>
+    <field name="model">${1/_/./g}</field>
+    <field name="type">kanban</field>
+    <field name="priority">0</field>
+    <field name="arch" type="xml">
+        <kanban class="o_kanban_dashboard">
+            <!-- Field declarations -->
+            <templates>
+                <t t-name="kanban-box">
+                    <div>
+                        <div class="o_kanban_card_header">
+                            <div class="o_kanban_card_header_title">
+                                <div class="o_primary">
+                                    <field name="name" />
+                                </div>
+                                <div class="o_secondary">
+                                    <field name="create_uid" />
+                                </div>
+                            </div>
+                            <div class="o_kanban_manage_button_section">
+                                <a class="o_kanban_manage_toggle_button" href="#">More <i class="fa fa-caret-down"/></a>
+                            </div>
+                        </div>
+                        <div class="container o_kanban_card_content o_visible">
+                            <div class="row">
+                                <div class="col-xs-6 o_kanban_primary_left">
+                                    <!-- Left content -->
+                                </div>
+                                <div class="col-xs-6 o_kanban_primary_right">
+                                    <!-- Right content -->
+                                </div>
+                                <div class="col-xs-12 o_kanban_primary_bottom">
+                                    <!-- Bottom content -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container o_kanban_card_manage_pane o_invisible">
+                            <!-- Only shows when more is clicked -->
+                            <div class="row">
+                                <div class="col-xs-4 o_kanban_card_manage_section">
+                                    <div class="o_kanban_card_manage_title">Section 1</div>
+                                </div>
+                                <div class="col-xs-4 o_kanban_card_manage_section">
+                                    <div class="o_kanban_card_manage_title">Section 2</div>
+                                </div>
+                                <div class="col-xs-4 o_kanban_card_manage_section">
+                                    <div class="o_kanban_card_manage_title">Section 3</div>
+                                </div>
+                            </div>
+                            <div class="row o_kanban_card_settings">
+                                <div class="col-xs-8">
+                                    <!-- Footer -->
+                                </div>
+                                <div class="col-xs-4 text-right">
+                                    <a type="edit">Settings</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </t>
+            </templates>
+        </kanban>
+    </field>
+</record>
+]]></content>
+    <tabTrigger>kanban</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Kanban view (Dashboard)</description>
+</snippet>
