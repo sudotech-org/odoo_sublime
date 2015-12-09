@@ -1,0 +1,41 @@
+<snippet>
+    <content><![CDATA[
+<record model="ir.ui.view" id="view_${1:model_name}_kanban">
+    <field name="name">${1/_/./g}.kanban</field>
+    <field name="model">${1/_/./g}</field>
+    <field name="type">kanban</field>
+    <field name="priority">0</field>
+    <field name="arch" type="xml">
+        <kanban>
+            <!-- Field declarations -->
+            <field name="name" />
+            <templates>
+                <t t-name="kanban-box">
+                    <div class="oe_kanban_vignette">
+                        <div class="oe_kanban_content">
+                            <!-- Option menu will go here -->
+                            <h4>
+                                <a type="open">
+                                    <field name="name" />
+                                </a>
+                            </h4>
+                            <ul>
+                                <li><field name="create_date" /></li>
+                                <li><field name="create_uid" /></li>
+                            </ul>
+                            <div class="oe_kanban_bottom_right">
+                            </div>
+                            <div class="oe_kanban_footer_left">
+                            </div>
+                        </div>
+                    </div>
+                </t>
+            </templates>
+        </kanban>
+    </field>
+</record>
+]]></content>
+    <tabTrigger>kanban</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Kanban view (Vignette)</description>
+</snippet>

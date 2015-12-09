@@ -1,0 +1,37 @@
+<snippet>
+    <content><![CDATA[
+<record model="ir.ui.view" id="view_${1:model_name}_kanban">
+    <field name="name">${1/_/./g}.kanban</field>
+    <field name="model">${1/_/./g}</field>
+    <field name="type">kanban</field>
+    <field name="priority">0</field>
+    <field name="arch" type="xml">
+        <kanban default_group_by="${2:state}">
+            <!-- Field declarations -->
+            <templates>
+                <t t-name="kanban-box">
+                    <div class="oe_kanban_card">
+                        <div class="oe_dropdown_kanban oe_dropdown_toggle">
+                            <ul class="oe_dropdown_menu">
+                                <li><a type="edit">Edit</a></li>
+                                <li><a type="delete">Delete</a></li>
+                            </ul>
+                        </div>
+                        <div class="oe_kanban_content">
+                            <!-- Content fields go here -->
+                            <div class="oe_kanban_bottom_right">
+                            </div>
+                            <div class="oe_kanban_footer_left">
+                            </div>
+                        </div>
+                    </div>
+                </t>
+            </templates>
+        </kanban>
+    </field>
+</record>
+]]></content>
+    <tabTrigger>kanban</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Kanban view (Card)</description>
+</snippet>
