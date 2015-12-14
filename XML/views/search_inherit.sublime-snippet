@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+<record model="ir.ui.view" id="view_${1:model_name}_search">
+    <field name="name">${1/_/./g}.search.inherit</field>
+    <field name="model">${1/_/./g}</field>
+    <field name="type">search</field>
+    <field name="inherit_id" ref="${2:module_name.form_name}" />
+    <field name="arch" type="xml">
+        <!-- Add extra filter -->
+        <xpath expr="//filter[@name='']" position="after"></xpath>
+        <!-- Add extra group by -->
+        <xpath expr="//group" position="inside"></xpath>
+    </field>
+</record>
+]]></content>
+    <tabTrigger>search</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Search view (inherit)</description>
+</snippet>
