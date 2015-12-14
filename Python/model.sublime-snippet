@@ -5,10 +5,14 @@ from openerp import models, fields, api, exceptions, _
 import logging
 _logger = logging.getLogger(__name__)
 
-class ${1:model_name}(models.Model):
+class ${1:ModelName}(models.Model):
 
-    _name = '${1/_/./g}'
-    _description = '${2:Model description}'
+    _name = '${1/((^[A-Z])|([A-Z]))/(?2:\l$2)(?3:\.\l$3)/g}'
+    _description = '${1/((^[A-Z])|([A-Z]))/(?2:\u$2)(?3:\ \l$3)/g}'
+    _rec_name = 'name'
+    _order = 'name ASC'
+
+    ${0}
 ]]></content>
     <tabTrigger>model</tabTrigger>
     <scope>source.python</scope>
