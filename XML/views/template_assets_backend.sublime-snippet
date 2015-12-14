@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+<template id="assets_backend" name="${1:module_name} assets" inherit_id="web.assets_backend">
+    <xpath expr="." position="inside">
+    	<link rel="stylesheet" href="/${1:module_name}/static/src/css/${1:module_name}.css"/>
+        <script type="text/javascript" src="/${1:module_name}/static/src/js/${1:module_name}.js"></script>
+    </xpath>
+</template>
+]]></content>
+    <tabTrigger>template</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Template (assets backend)</description>
+</snippet>
