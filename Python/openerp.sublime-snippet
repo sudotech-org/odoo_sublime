@@ -2,18 +2,21 @@
     <content><![CDATA[
 {
     "name": "${1:Module name}",
-    "version": "0.1",
-    "author" : "OA Solutions",
-    "website": "http://www.oasolutions.co.za",
-    "category": "${2:Category}",
+    "version": "1.0",
+    "author" : "${2:Company Name}",
+    "website": "${3:http://www.mycompany.com}",
+    "category": "${4:Category}",
     "description": """
 ${1:Module name}
 ${1/./=/g}
 """,
-    "summary": "${3:Keywords}",
+    "summary": "${5:Keywords}",
     "depends": [],
     "data" : [],
     "demo" : [],
+    "js": ['static/src/js/*.js'],
+    "css": ['static/src/css/*.css'],
+    "qweb": ['static/src/xml/*.xml'],
     "installable": True,
 }
 ]]></content>
