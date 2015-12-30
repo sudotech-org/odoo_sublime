@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+<button type="object" name="toggle_active" class="oe_stat_button" icon="fa-archive">
+	<!-- "Active" / "Deactive" button -->
+    <field name="active" widget="boolean_button" options="{'terminology': 'active'}" />
+    <!-- "Not Archived" / "Archived" button -->
+    <field name="active" widget="boolean_button" options="{'terminology': 'archive'}" />
+</button>
+]]></content>
+    <tabTrigger>button</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Button (active toggle)</description>
+</snippet>
