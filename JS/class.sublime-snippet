@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+odoo.define('${1:definition.name}', function(require) {
+"use strict";
+
+var core = require('web.core');
+
+var _t = core._t;
+var QWeb = core.qweb;
+
+});
+]]></content>
+    <tabTrigger>class</tabTrigger>
+    <scope>source.js</scope>
+    <description>Javascript Class</description>
+</snippet>
