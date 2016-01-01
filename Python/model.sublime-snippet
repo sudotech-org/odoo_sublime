@@ -9,8 +9,6 @@ class ${1:ModelName}(models.Model):
 
     _name = '${1/((^[A-Z])|([A-Z]))/(?2:\l$2)(?3:\.\l$3)/g}'
     _description = '${1/((^[A-Z])|([A-Z]))/(?2:\u$2)(?3:\ \u$3)/g}'
-    _rec_name = 'name'
-    _order = 'name ASC'
 
     ${0}
 ]]></content>
