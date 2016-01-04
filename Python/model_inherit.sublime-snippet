@@ -13,5 +13,5 @@ class ${1:ModelName}Inherit(models.Model):
 ]]></content>
     <tabTrigger>model</tabTrigger>
     <scope>source.python</scope>
-    <description>Model (inherit)</description>
+    <description>Model (Inheriting from another Odoo Model)</description>
 </snippet>

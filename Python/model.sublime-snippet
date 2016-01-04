@@ -14,5 +14,5 @@ class ${1:ModelName}(models.Model):
 ]]></content>
     <tabTrigger>model</tabTrigger>
     <scope>source.python</scope>
-    <description>Model</description>
+    <description>Model (Standard Odoo Model)</description>
 </snippet>

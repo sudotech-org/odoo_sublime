@@ -14,5 +14,5 @@ class ${1:ModelName}(models.TransientModel):
 ]]></content>
     <tabTrigger>model</tabTrigger>
     <scope>source.python</scope>
-    <description>Transient Model (Wizard)</description>
+    <description>Model (Transient Model/Wizard)</description>
 </snippet>
