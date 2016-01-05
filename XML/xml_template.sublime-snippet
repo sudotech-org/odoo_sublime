@@ -9,5 +9,5 @@ ${0}
 ]]></content>
     <tabTrigger>xml</tabTrigger>
     <scope>text.xml</scope>
-    <description>XML Template for qweb</description>
+    <description>XML Container (QWeb)</description>
 </snippet>
