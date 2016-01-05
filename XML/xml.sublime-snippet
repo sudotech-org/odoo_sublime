@@ -1,15 +1,13 @@
 <snippet>
     <content><![CDATA[
 <?xml version="1.0" encoding="UTF-8"?>
-<openerp>
-    <data>
+<odoo>
 
-        ${0}
+${0}
 
-    </data>
-</openerp>
+</odoo>
 ]]></content>
     <tabTrigger>xml</tabTrigger>
     <scope>text.xml</scope>
-    <description>XML Template for webclient</description>
+    <description>XML Container (Webclient)</description>
 </snippet>
