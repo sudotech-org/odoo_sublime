@@ -5,7 +5,7 @@ from openerp import models, fields, api, exceptions, _
 import logging
 _logger = logging.getLogger(__name__)
 
-class ${1:ModelName}Inherit(models.Model):
+class ${1:ModelName}(models.Model):
 
     _inherit = '${1/((^[A-Z])|([A-Z]))/(?2:\l$2)(?3:\.\l$3)/g}'
 
@@ -13,5 +13,5 @@ class ${1:ModelName}Inherit(models.Model):
 ]]></content>
     <tabTrigger>model</tabTrigger>
     <scope>source.python</scope>
-    <description>Model (Inheriting from another Odoo Model)</description>
+    <description>Model (Extending another Odoo Model)</description>
 </snippet>
