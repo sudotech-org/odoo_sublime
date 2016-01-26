@@ -1,8 +1,8 @@
   <snippet>
     <content><![CDATA[
-${1:field_name} = fields.Selection(string="${2:Field label}", selection=[])
+fields.Selection(string="${1:Field label}", selection=[${0}])
 ]]></content>
-    <tabTrigger>field</tabTrigger>
+    <tabTrigger>fields.</tabTrigger>
     <scope>source.python</scope>
     <description>Selection</description>
 </snippet>

@@ -1,8 +1,8 @@
   <snippet>
     <content><![CDATA[
-${1:field_name} = fields.Integer(string="${2:Field label}")
+fields.Integer(string="${1:Field label}")
 ]]></content>
-    <tabTrigger>field</tabTrigger>
+    <tabTrigger>fields.</tabTrigger>
     <scope>source.python</scope>
     <description>Integer</description>
 </snippet>
