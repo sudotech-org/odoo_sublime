@@ -11,6 +11,6 @@ return {
     'target': '${5:current|new}',
 }
 ]]></content>
-    <tabTrigger>return action</tabTrigger>
+    <tabTrigger>return</tabTrigger>
     <scope>source.python</scope>
 </snippet>

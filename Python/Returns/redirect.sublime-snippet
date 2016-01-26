@@ -6,6 +6,6 @@ return {
     'target': '${2:current|new}',
 }
 ]]></content>
-    <tabTrigger>return redirect</tabTrigger>
+    <tabTrigger>return</tabTrigger>
     <scope>source.python</scope>
 </snippet>
