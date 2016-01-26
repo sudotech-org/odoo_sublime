@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 <button class="oe_stat_button" type="action" name="%(${1:xml_id})d" icon="fa-check">
-    <div>${2:Button label}</div>
+    <span class="o_stat_text">${2:Button label}</span>
 </button>
 ]]></content>
     <tabTrigger>button</tabTrigger>
