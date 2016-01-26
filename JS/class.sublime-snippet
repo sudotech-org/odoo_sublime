@@ -1,9 +1,12 @@
 <snippet>
     <content><![CDATA[
-odoo.define('${1:definition.name}', function(require) {
+odoo.define('${1:module_name}.${2:description}', function(require) {
 "use strict";
 
 var core = require('web.core');
+var utils = require('web.utils');
+var Model = require('web.Model');
+var Widget = require('web.Widget');
 
 var _t = core._t;
 var QWeb = core.qweb;
