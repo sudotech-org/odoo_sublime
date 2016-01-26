@@ -1,0 +1,30 @@
+<snippet>
+    <content><![CDATA[
+var ${1:MyWidget} = Widget.extend({
+
+	template: "${2:MyQWebTemplate}",
+
+    events: {
+    	// insert event triggers
+    },
+
+    init: function(parent) {
+        this._super(parent);
+        // insert code to execute before rendering
+    },
+
+    start: function() {
+        this._super();
+        // insert post-rendering code
+    },
+
+});
+
+return {
+    ${1:MyWidget}: new ${1:MyWidget}(),
+};
+]]></content>
+    <tabTrigger>widget</tabTrigger>
+    <scope>source.js</scope>
+    <description>Javascript Widget</description>
+</snippet>
