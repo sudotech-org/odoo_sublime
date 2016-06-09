@@ -4,5 +4,5 @@
     :width: ${3:600}
 ]]></content>
     <tabTrigger>image</tabTrigger>
-    <scope>source.python</scope>
+    <scope>text.restructuredtext</scope>
 </snippet>
