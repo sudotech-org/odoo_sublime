@@ -1,0 +1,44 @@
+<snippet>
+	<content><![CDATA[
+version: '2'
+services:
+	${1:odoo}:
+		build: .
+		image: ${2:image}
+		container_name: ${3:container}
+		ports:
+			- "${4:exposed}:8069"
+		links:
+			- ${5:db}
+		tty: true
+		environment:
+			- PGHOST=${5}
+			- PGUSER=${7:username}
+			- PGPASSWORD=${8:password}
+		volumes:
+		    - ${9:./openerp-server.conf}:/etc/odoo/openerp-server.conf
+   
+	${5}:
+			image: postgres:9.5
+			container_name: ${10:container}
+			environment:
+				- POSTGRES_USER=${7}
+				- POSTGRES_PASSWORD=${8}
+			volumes:
+			    - ${11:data_volume}:/var/lib/postgresql/data
+
+volumes:
+	${11}:
+	    external:
+	      name: ${12:volume-external-name}
+
+networks:
+	  default:
+	    external:
+	      name: ${13:network-external-name}
+
+]]></content>
+	<tabTrigger>compose</tabTrigger>
+	<scope>source.yaml</scope> 
+	<description>Docker Compose File.</description>
+</snippet>

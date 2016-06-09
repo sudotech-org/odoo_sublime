@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+.. ${1:menu-tag}:
+
+${2/./=/g}
+${2:Project Name}
+${2/./=/g}
+
+.. toctree::
+	:maxdepth: 2
+
+	${3:subment}
+
+]]></content>
+	<tabTrigger>toc</tabTrigger>
+	<scope>text.restructuredtext</scope>
+	<description>Table of Contents</description>
+</snippet>
