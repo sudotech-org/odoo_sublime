@@ -1,13 +1,13 @@
 <snippet>
     <content><![CDATA[
-from openerp import models, fields, api, exceptions, _
+from ${1:openerp|odoo} import models, fields, api, exceptions, tools, _
 
 import logging
 _logger = logging.getLogger(__name__)
 
-class ${1:ModuleName}Settings(models.TransientModel):
+class ${2:ModuleName}Settings(models.TransientModel):
 
-    _name = '${1/((^[A-Z])|([A-Z]))/(?2:\l$2)(?3:\.\l$3)/g}'
+    _name = '${2/((^[A-Z])|([A-Z]))/(?2:\l$2)(?3:\.\l$3)/g}'
     _inherit = 'res.config.settings'
 
     ${0}

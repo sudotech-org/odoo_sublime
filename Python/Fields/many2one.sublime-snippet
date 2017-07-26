@@ -1,6 +1,6 @@
   <snippet>
     <content><![CDATA[
-fields.Many2one(string="${1:Field label}", comodel_name="${2:model.name}")
+fields.Many2one(string="${1:Field label}", comodel_name="${2:model.name}", domain=${3:"[]"}, context=${4:\{\}}, ondelete="${5:set null|restrict|cascade}", required=${6:False}, readonly=${7:False}, copy=${8:True}, groups="${9:base.group_user}", help="${10:Field Tooltip}")
 ]]></content>
     <tabTrigger>fields.</tabTrigger>
     <scope>source.python</scope>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+self.assertNotAlmostEqual(${1:expected}, ${2:actual}, ${3:places=7}, '${4,msg=Message}', ${5:delta=None})
+]]></content>
+    <tabTrigger>assert</tabTrigger>
+    <tabTrigger>assertNotAlmostEqual</tabTrigger>
+    <scope>source.python</scope>
+    <description>assertNotAlmostEqual</description>
+</snippet>

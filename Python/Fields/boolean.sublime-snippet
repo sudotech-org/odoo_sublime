@@ -1,6 +1,6 @@
   <snippet>
     <content><![CDATA[
-fields.Boolean(string="${1:Field label}")
+fields.Boolean(string="${1:Field label}", required=${2:False}, readonly=${3:False}, default=${4:False}, copy=${5:True}, groups="${6:base.group_user}", help="${7:Field Tooltip}")
 ]]></content>
     <tabTrigger>fields.</tabTrigger>
     <scope>source.python</scope>

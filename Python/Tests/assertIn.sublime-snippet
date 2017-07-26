@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+self.assertIn(${1:expected}, ${2:actual}, '${3:Message}')
+]]></content>
+    <tabTrigger>assert</tabTrigger>
+    <tabTrigger>assertIn</tabTrigger>
+    <scope>source.python</scope>
+    <description>assertIn</description>
+</snippet>
