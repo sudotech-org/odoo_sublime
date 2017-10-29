@@ -13,9 +13,6 @@
         <p class="oe_view_nocontent_create">
             ${3:Short description}
         </p>
-        <p>
-            ${4:Long description}
-        </p>
     </field>
 </record>
 ]]></content>

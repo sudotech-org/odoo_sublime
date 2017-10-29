@@ -9,7 +9,7 @@ class ${2:ModelName}(models.Model):
 
     _inherit = '${2/((^[A-Z])|([A-Z]))/(?2:\l$2)(?3:\.\l$3)/g}'
 
-    ${0}
+    ${3:}
 ]]></content>
     <tabTrigger>model</tabTrigger>
     <scope>source.python</scope>

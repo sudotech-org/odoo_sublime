@@ -1,16 +1,16 @@
 <snippet>
     <content><![CDATA[
-from ${2:odoo|openerp} import http, tools
-from ${2:odoo|openerp}.http import request
+from ${1:odoo|openerp} import http, tools
+from ${1:odoo|openerp}.http import request
 
 import logging
 _logger = logging.getLogger(__name__)
 
 class ${2:ControllerName}(http.Controller):
 
-    @http.route(['${3:/web/path}'], auth="public", website=True)
-    def ${4:example}(self, **post):
-        return request.website.render('${5:module_name.template_name}')
+    @http.route(['${3:/web/path}'], auth="${4:public|user}", website=True)
+    def ${5:example}(self,${6:example}, **post):
+        return request.render('${7:module_name.template_name}')
 
 ${2:ControllerName}()
 ]]></content>

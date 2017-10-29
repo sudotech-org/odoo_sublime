@@ -10,7 +10,7 @@ class ${2:ModuleName}Settings(models.TransientModel):
     _name = '${2/((^[A-Z])|([A-Z]))/(?2:\l$2)(?3:\.\l$3)/g}'
     _inherit = 'res.config.settings'
 
-    ${0}
+    ${3:}
 
     
 ]]></content>
