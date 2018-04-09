@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-print "${1:var} = " + str(${1:var})
+print ("${1:var} = ", ${1:var})
 ]]></content>
     <tabTrigger>print</tabTrigger>
     <scope>source.python</scope>

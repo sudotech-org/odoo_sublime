@@ -2,19 +2,19 @@
     <content><![CDATA[
 <record model="ir.cron" id="ir_cron_${1:cron_name}">
     <field name="name">${2:Cron Name}</field>
-    <field name="model">${3:model.name}</field>
-    <field name="function">${4:method_name}</field>
+    <field name="model_id" ref="model_${3:model_name}"/>
+    <field name="code" eval="'model.${4:method_name}'"/>
     <field name="args">${5:()}</field>
     <field name="interval_number">${6:1|5|10|30}</field>
     <field name="interval_type">${7:minutes|hours|days|weeks|months}</field>
     <field name="user_id" ref="base.user_root" />
-    <field name="active">1</field>
+    <field name="state">code</field>
     <field name="priority">1</field>
     <field name="numbercall">-1</field>
     <field name="doall" eval="False" />
 </record>
 ]]></content>
-    <tabTrigger>ir_cron</tabTrigger>
+    <tabTrigger>cron</tabTrigger>
     <scope>text.xml</scope>
     <description>Automated action</description>
 </snippet>
