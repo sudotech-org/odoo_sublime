@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 <xpath expr="${1}" position="${2:before|after|inside|replace|attributes}">
-    ${0}
+    ${3}
 </xpath>
 ]]></content>
     <tabTrigger>xpath</tabTrigger>

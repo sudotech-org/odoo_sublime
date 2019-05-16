@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+fields.Datetime(string="${1:Field label}", required=${2:False}, readonly=${3:False}, default=${4:fields.Datetime.now}, copy=${5:True})
+]]></content>
+    <tabTrigger>fields.</tabTrigger>
+    <scope>source.python</scope>
+    <description>Datetime</description>
+</snippet>

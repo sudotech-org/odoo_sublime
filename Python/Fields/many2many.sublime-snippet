@@ -1,0 +1,8 @@
+  <snippet>
+    <content><![CDATA[
+fields.Many2many(string="${1:Field label}", comodel_name="${2:model.name}", required=${3:False}, readonly=${4:False}, copy=${5:True})
+]]></content>
+    <tabTrigger>fields.</tabTrigger>
+    <scope>source.python</scope>
+    <description>Many2many</description>
+</snippet>

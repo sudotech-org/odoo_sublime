@@ -2,7 +2,9 @@
     <content><![CDATA[
 <menuitem
     id="menu_${1:model_name}"
-    name="${2:Menu label}" />
+    name="${2:Menu label}" 
+    groups="${3:module_name.group_id}"
+    sequence="${4:10}" />
 ]]></content>
     <tabTrigger>menu</tabTrigger>
     <scope>text.xml</scope>

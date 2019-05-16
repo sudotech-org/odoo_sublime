@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-id,groups:id,model_id,perm_read,perm_write,perm_create,perm_unlink,domain_force
+id,name,groups:id,model_id,perm_read,perm_write,perm_create,perm_unlink,domain_force
 ]]></content>
     <source>text.csv</source>
     <tabTrigger>rule</tabTrigger>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+self.assertIsNot(${1:expected}, ${2:actual}, '${3:Message}')
+]]></content>
+    <tabTrigger>assert</tabTrigger>
+    <tabTrigger>assertIsNot</tabTrigger>
+    <scope>source.python</scope>
+    <description>assertIsNot</description>
+</snippet>

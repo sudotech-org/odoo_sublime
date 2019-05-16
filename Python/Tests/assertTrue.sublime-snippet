@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+self.assertTrue(${1:expected}, '${2:Message}')
+]]></content>
+    <tabTrigger>assert</tabTrigger>
+    <tabTrigger>assertTrue</tabTrigger>
+    <scope>source.python</scope>
+    <description>assertTrue</description>
+</snippet>

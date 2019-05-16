@@ -1,6 +1,6 @@
   <snippet>
     <content><![CDATA[
-fields.Float(string="${1:Field label}")
+fields.Float(string="${1:Field label}", digits=(${2:32},${3:2}), required=${4:False}, readonly=${5:False}, default=${6:0.0}, copy=${7:True})
 ]]></content>
     <tabTrigger>fields.</tabTrigger>
     <scope>source.python</scope>

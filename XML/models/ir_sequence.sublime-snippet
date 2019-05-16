@@ -1,10 +1,5 @@
 <snippet>
     <content><![CDATA[
-<record id="ir_sequence_type_${1:model_name}" model="ir.sequence.type">
-    <field name="name">${2:Model name}</field>
-    <field name="code">${1:model_name}</field>
-</record>
-
 <record id="ir_sequence_${1:model_name}" model="ir.sequence">
     <field name="name">${2:Model name}</field>
     <field name="code">${1:model_name}</field>

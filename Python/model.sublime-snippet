@@ -1,16 +1,16 @@
 <snippet>
     <content><![CDATA[
-from openerp import models, fields, api, exceptions, _
+from ${1:openerp|odoo} import models, fields, api, exceptions, tools, _
 
 import logging
 _logger = logging.getLogger(__name__)
 
-class ${1:ModelName}(models.Model):
+class ${2:ModelName}(models.Model):
 
-    _name = '${1/((^[A-Z])|([A-Z]))/(?2:\l$2)(?3:\.\l$3)/g}'
-    _description = '${1/((^[A-Z])|([A-Z]))/(?2:\u$2)(?3:\ \u$3)/g}'
+    _name = '${2/((^[A-Z])|([A-Z]))/(?2:\l$2)(?3:\.\l$3)/g}'
+    _description = '${2/((^[A-Z])|([A-Z]))/(?2:\u$2)(?3:\ \u$3)/g}'
 
-    ${0}
+    ${3:}
 ]]></content>
     <tabTrigger>model</tabTrigger>
     <scope>source.python</scope>

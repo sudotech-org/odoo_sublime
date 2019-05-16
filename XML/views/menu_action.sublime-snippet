@@ -4,7 +4,9 @@
     id="menu_${1:model_name}"
     name="${2:Menu label}"
     parent="menu_${3:parent_id}"
-    action="action_${4:model_name}" />
+    action="action_${4:model_name}" 
+    groups="${5:module_name.group_id}"
+    sequence="${6:10}"/>
 ]]></content>
     <tabTrigger>menu</tabTrigger>
     <scope>text.xml</scope>

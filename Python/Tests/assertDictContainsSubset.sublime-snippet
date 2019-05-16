@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+self.assertDictContainsSubset(${1:expected}, ${2:actual}, '${3:Message}')
+]]></content>
+    <tabTrigger>assert</tabTrigger>
+    <tabTrigger>assertDictContainsSubset</tabTrigger>
+    <scope>source.python</scope>
+    <description>assertDictContainsSubset</description>
+</snippet>
