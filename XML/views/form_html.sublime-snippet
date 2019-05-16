@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+        <form role="form">
+            <div class="form-group">
+                <label class="col-form-label" for="name">Country</label>
+                <input class="form-control" type="text" placeholder="" name="country_id" t-att-value="country_id" id="country_id" required="required" autofocus="autofocus" autocapitalize="off"/>
+            </div>
+        </form>
+]]></content>
+    <tabTrigger>form</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Form (html / page)</description>
+</snippet>
