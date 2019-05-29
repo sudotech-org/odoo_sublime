@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+<record id="action_multi_${1:model_name}_${2:method_name}" model="ir.actions.server">
+    <field name="name">${3:Dropdown Label}</field>
+    <field name="type">ir.actions.server</field>
+    <field name="model_id" ref="model_${1:model_name}"/>
+    <field name="state">code</field>
+    <field name="binding_model_id" ref="model_${1:model_name}"/>
+    <field name="code">${5:action = }records.${2}()</field>
+</record>]]></content>
+    <tabTrigger>multi</tabTrigger>
+    <tabTrigger>action</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Multi Action that executes function</description>
+</snippet>
+

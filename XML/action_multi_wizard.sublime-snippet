@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+<act_window id="action_multi_${1:model_name}_${2:action}"
+    name="${3:Dropdown Label}"
+    src_model="${1/_/./g}"
+    res_model="${4:wizard.model.name}"
+    view_type="form"
+    view_mode="${5:form}"
+    key2="client_action_multi"
+    target="${6:new|current}"/>
+]]></content>
+    <tabTrigger>multi</tabTrigger>
+    <tabTrigger>action</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Multi Action that launches Action/Wizard</description>
+</snippet>
