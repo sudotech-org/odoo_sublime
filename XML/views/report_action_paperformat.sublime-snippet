@@ -8,7 +8,7 @@
     name="${3:module_name}.report_${1:model_name}"
     file="${3:module_name}.report_${1:model_name}" />
 
-<record model="ir.actions.report.xml" id="action_report_${1:model_name}">
+<record model="ir.actions.report" id="action_report_${1:model_name}">
     <field name="paperformat_id" ref="${4:paperformat_id}" />
 </record>
 ]]></content>
