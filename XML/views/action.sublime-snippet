@@ -3,20 +3,11 @@
 <record model="ir.actions.act_window" id="action_${1:model_name}">
     <field name="name">${2:Action label}</field>
     <field name="res_model">${1/_/./g}</field>
-    <field name="view_type">form</field>
     <field name="view_mode">tree,form</field>
-    <field name="limit">80</field>
     <field name="target">current</field>
-    <field name="view_id" ref="" />
-    <field name="search_view_id" ref="" />
-    <field name="help" type="html">
-        <p class="oe_view_nocontent_create">
-            ${3:Short description}
-        </p>
-    </field>
 </record>
 ]]></content>
     <tabTrigger>action</tabTrigger>
     <scope>text.xml</scope>
-    <description>Action</description>
+    <description>Action (Minimal)</description>
 </snippet>

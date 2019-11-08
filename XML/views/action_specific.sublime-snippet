@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[
+<record model="ir.actions.act_window" id="action_${1:model_name}">
+    <field name="name">${2:Action label}</field>
+    <field name="res_model">${1/_/./g}</field>
+    <field name="view_type">${3:form}</field>
+    <field name="view_mode">${4:tree,form}</field>
+    <field name="limit">${5:80}</field>
+    <field name="target">${6:current}</field>
+</record>
+
+<record model="ir.actions.act_window.view" id="action_view_${1:model_name}_tree">
+    <field name="act_window_id" ref="action_${1:model_name}" />
+    <field name="view_mode">tree</field>
+    <field name="view_id" ref="view_${1:model_name}_tree" />
+</record>
+
+<record model="ir.actions.act_window.view" id="action_view_${1:model_name}_form">
+    <field name="act_window_id" ref="action_${1:model_name}" />
+    <field name="view_mode">form</field>
+    <field name="view_id" ref="view_${1:model_name}_form" />
+</record>
+]]></content>
+    <tabTrigger>action</tabTrigger>
+    <scope>text.xml</scope>
+    <description>Action with specific views</description>
+</snippet>
