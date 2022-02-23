@@ -3,6 +3,8 @@
 <record model="ir.ui.view" id="view_${1:model_name}_form">
     <field name="name">${1/_/./g}.form</field>
     <field name="model">${1/_/./g}</field>
+    <field name="type">form</field>
+    <field name="priority">0</field>
     <field name="arch" type="xml">
         <form>
             <header>
@@ -17,5 +19,5 @@
 ]]></content>
     <tabTrigger>form</tabTrigger>
     <scope>text.xml</scope>
-    <description>Form view</description>
+    <description>Form view (Old)</description>
 </snippet>
