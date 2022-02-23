@@ -3,6 +3,8 @@
 <record model="ir.ui.view" id="view_${1:model_name}_tree">
     <field name="name">${1/_/./g}.tree</field>
     <field name="model">${1/_/./g}</field>
+    <field name="type">tree</field>
+    <field name="priority">0</field>
     <field name="arch" type="xml">
         <tree>
             
@@ -12,5 +14,5 @@
 ]]></content>
     <tabTrigger>tree</tabTrigger>
     <scope>text.xml</scope>
-    <description>Tree view</description>
+    <description>Tree view (Old)</description>
 </snippet>
