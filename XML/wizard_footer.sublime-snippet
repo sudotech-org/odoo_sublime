@@ -1,9 +1,8 @@
 <snippet>
     <content><![CDATA[
 <footer>
-	<button class="oe_highlight" type="object" name="${1:function_name}" string="${2:Button label}" />
-	or
-	<button class="oe_link" special="cancel" string="Cancel" />
+	<button class="btn btn-primary" type="object" name="${1:function_name}" string="${2:Button label}" />
+	<button special="cancel" string="Discard" />
 </footer>
 ]]></content>
     <tabTrigger>footer</tabTrigger>
