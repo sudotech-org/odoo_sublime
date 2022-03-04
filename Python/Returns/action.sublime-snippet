@@ -8,6 +8,9 @@ return {
     'res_model': ${3:model_name},
     'view_id': ${4:view_id},
     'target': '${5:current|new|fullscreen|main}',
+    ${6:'context': {
+        'dialog_size': '${7:small|medium|large}',
+    \}}
 }
 ]]></content>
     <tabTrigger>return</tabTrigger>
